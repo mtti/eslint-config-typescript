@@ -15,7 +15,8 @@ module.exports = {
 
   "parserOptions": {
       "ecmaVersion": 2017,
-      "sourceType": "module"
+      "sourceType": "module",
+      "project": "./tsconfig.json",
   },
 
   "plugins": [
@@ -56,5 +57,6 @@ module.exports = {
     "import/order": ["error", {
       "newlines-between": "ignore",
     }],
+    "@typescript-eslint/no-floating-promises": "error",
   },
 };
