@@ -45,10 +45,7 @@ module.exports = {
         "ignoreStrings": true,
         "ignoreRegExpLiterals": true
     }],
-    "sort-imports": ["error", {
-        "ignoreCase": true,
-        "memberSyntaxSortOrder": ["none", "all", "single", "multiple"]
-    }],
+    "sort-imports": 0,
     "import/prefer-default-export": 0,
     "@typescript-eslint/no-explicit-any": 0,
     "@typescript-eslint/no-unused-vars": ["error", {
@@ -56,6 +53,8 @@ module.exports = {
     }],
     "@typescript-eslint/no-inferrable-types": 0,
     "operator-linebreak": 0,
-    "import/order": 0
+    "import/order": ["error", {
+      "newlines-between": "ignore",
+    }],
   },
 };
