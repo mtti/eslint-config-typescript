@@ -1,9 +1,8 @@
 {
   "name": "@mtti/eslint-config-typescript",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "My ESLint rules for TypeScript",
   "author": "Matti Hiltunen",
-  "private": true,
   "engines": {
     "node": ">=10.15.0"
   },
