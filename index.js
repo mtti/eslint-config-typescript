@@ -58,5 +58,15 @@ module.exports = {
       "newlines-between": "ignore",
     }],
     "@typescript-eslint/no-floating-promises": "error",
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+          "js": "never",
+          "ts": "never",
+          "jsx": "never",
+          "tsx": "never"
+      }
+    ],
   },
 };
