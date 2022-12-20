@@ -16,15 +16,6 @@ jobs:
           node-version: '16.x'
           registry-url: 'https://registry.npmjs.org'
 
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Run tests
-        run: npm run test:parallel
-
-      - name: Build
-        run: npm run build
-
       - name: Publish to NPM
         run: npm publish --access public
         env:
