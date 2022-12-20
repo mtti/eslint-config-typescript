@@ -1,6 +1,6 @@
 {
   "name": "@mtti/eslint-config-typescript",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "My ESLint rules for TypeScript",
   "repository": "github:mtti/eslint-config-typescript",
   "author": "Matti Hiltunen",
