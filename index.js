@@ -7,14 +7,13 @@ module.exports = {
 
   "env": {
     "jest": true,
-    "es6": true,
+    "es2020": true,
     "node": true
   },
 
   "parser": "@typescript-eslint/parser",
 
   "parserOptions": {
-      "ecmaVersion": 2017,
       "sourceType": "module",
       "project": "./tsconfig.json",
   },
